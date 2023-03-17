@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+
+.datos{
+    color: #2C3639;
+    background-color: #A27B5C;
+    grid-area: aside;
+    margin: 10px;
+}
+
+img{
+    border-radius: 100%;
+    margin: 75px 75px 20px 75px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.educacion-container{
+    grid-area: educacion;
+}
+.experiencia.container{
+    grid-area: experiencia;
+}
+.exp-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.experiencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.btn{
+    background-color: #e7e7e7; 
+    color: black;
+    font-size: 20px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.presentacion-container{
+    grid-area: presentacion;
+    width: 75%;
+    height: 60%;
+}
+.exp{
+    padding: 10px 100px 0px 100px;
+}
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "aside presentacion"
+    "aside educacion"
+    "aside experiencia";
+    grid-template-columns: 25% 75%;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+
+.modalContainer{
+    position: absolute ;
+    background-color: #A27B5C;
+    color: #2C3639;
+}
+
+.modal-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-header-button{
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    position: absolute;
+    left: 1060px;
+    top: 5px;
+
+}
+
+.modal-header-button:hover{
+    background-color: wheat;
+}
