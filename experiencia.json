@@ -1,0 +1,16 @@
+[
+    {"periodo" : "nov 2020 - dic 2022",
+    "empresa": "Universidad Nacional De San Luis",
+    "puesto": "Docente en Gestion de Datos",
+    "descripcion": "Realizaba tareas de docencia, como lo son el dictado de clases, realizacion de examenes y correccion de los mismos, coordinacion y dictado laboratorios.",
+    "referencia": "unsl@gmail.com (Cordinacion de Docentes)"},
+    {"periodo" : "mar 2012 - jul 2018",
+    "empresa": "CrossWin",
+    "puesto": "Especialista En Redes",
+    "descripcion": "Encargado de mantener las redes de computadoras funcionando de manera eficiente para su organización. Trabajan dentro del departamento de TI para probar sistemas, realizar mantenimiento, y solucionar problemas de redes de área local y amplia y sistemas de Internet.",
+    "referencia": "omarpugh@gmail.com (Superior)"},
+    {"periodo" : "jun 2018 - Actualidad",
+    "empresa": "MyFlix",
+    "puesto": "Ingeniero de DevOps",
+    "descripcion": "Encargado de incorporar procesos, herramientas y metodologías para equilibrar las necesidades durante todo el ciclo de vida del desarrollo de software, desde la programación y la implementación hasta el mantenimiento y las actualizaciones.",
+    "referencia": "camilalopez72@gmail.com (Compañero)"}]
